@@ -1,0 +1,54 @@
+/* Utility classes */
+
+.grayishBlue { 
+    color: hsl(220, 15%, 55%);
+}
+
+.darkBlue { 
+    color: hsl(218, 44%, 22%);
+}
+
+.ff-text { 
+    font-family: 'Outfit', sans-serif;
+}
+
+/* General styling */
+
+body { 
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card { 
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 250px;
+}
+
+img { 
+    border-radius: 20px;
+    width: 100%;;
+}
+
+.card-text { 
+    width: 90%;
+    margin: 0 auto;
+    text-indent: 5px;
+}
+
+p { 
+    font-size: 15px;
+    font-weight: 400;
+}
+
+h3 { 
+    font-weight: 700;
+}
+
+
+

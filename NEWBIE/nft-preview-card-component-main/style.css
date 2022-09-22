@@ -1,0 +1,186 @@
+/* ## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%) */
+
+
+/* Utility classes */
+
+.text-white { 
+    color: hsl(0, 0%, 100%);
+}
+
+.line-color { 
+    background-color: hsl(215, 32%, 27%);
+}
+
+
+
+.soft-blue { 
+    color: hsl(215, 51%, 70%);
+}
+
+.cyan { 
+    color: hsl(178, 100%, 50%);
+}
+
+
+
+.fw-300 { 
+    font-weight: 300;
+}
+
+
+.fw-400 { 
+    font-weight: 400;
+}
+
+
+.fw-600 { 
+    font-weight: 600;
+}
+
+/* General styling */
+body { 
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card { 
+    width: 250px;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    margin: 50px auto;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.cube { 
+    border-radius: 20px;
+    backface-visibility: hidden;
+    opacity: 1;
+    vertical-align: middle;
+}
+
+
+.eye-img { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
+
+.view-image { 
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.view-image:hover { 
+    cursor: pointer;
+}
+
+.view-image:hover .cube { 
+    opacity: 0.5;
+}
+
+.view-image:hover .eye-img { 
+    
+    opacity: 1;
+}
+
+.view-image:hover { 
+    background-color: hsl(178, 100%, 50%);
+}
+
+.item-name:hover  { 
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+
+.price-time { 
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-time li { 
+    list-style: none;
+}
+
+
+.price { 
+    background-image: url(/images/icon-ethereum.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+
+}
+
+.time-counter { 
+    background-image: url(/images/icon-clock.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+}
+
+
+
+hr { 
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+
+
+.image { 
+    width: 30px;
+    
+}
+
+.avatar-image { 
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    
+}
+
+.card-footer { 
+    display: flex;
+    justify-content: flex-start;
+    gap: 10%;
+}
+
+.card-footer p span{ 
+    color: white;
+    padding-left: 2px;
+    
+}
+
+.card-footer-name:hover  { 
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
