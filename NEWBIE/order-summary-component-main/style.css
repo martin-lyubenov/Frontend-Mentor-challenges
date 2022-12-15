@@ -1,0 +1,128 @@
+/* Utility classes */
+
+
+.text-payment-button  { 
+    color: hsl(223, 47%, 23%);
+}
+
+.bgc-payment-button { 
+    background-color: hsl(245, 75%, 52%);
+}
+
+.bgc-card { 
+    background-color: hsl(225, 100%, 94%);
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+
+/* General styling */
+
+body { 
+    background-color: hsl(225, 100%, 94%);
+}
+
+p { 
+    font-size: 16px;
+}
+
+.card { 
+    font-family: 'Red Hat Display', sans-serif;
+    width: 375px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom:  20px;
+}
+
+img { 
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-text { 
+    width: 90%;
+    margin: 20px auto;
+}
+
+.annual-plan { 
+    padding: 20px;
+    background-color:  hsl(225, 100%, 98%);
+    border-radius: 15px;
+
+}
+
+ul li { 
+    list-style-type: none;
+
+}
+
+.annual-plan-items { 
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    
+}
+
+.music-logo { 
+    background-image: url(/V1/images/icon-music.svg);
+    background-repeat: no-repeat;
+    line-height: 1.5;
+   
+}
+
+.change { 
+    line-height: 2.5;
+}
+
+.change a:hover  { 
+    text-decoration: none;
+}
+
+.card-footer a { 
+    text-decoration: none;
+}
+
+.payment-button { 
+    margin: 20px 0;
+    display: block;
+    border-radius: 15px;
+    padding: 15px;
+    color: hsl(225, 100%, 98%);
+    box-shadow: 0px 25px 5px hsl(225, 100%, 98%);
+
+}
+
+.payment-button:hover { 
+    opacity: 0.5;
+}
+
+.cancel-order:hover { 
+color: black;
+font-weight: 900;
+}
+
+
+@media (min-width: 1440px) { 
+    body { 
+        background-image: url(/order-summary-component-main/images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+    
+    }
+}
+
+
+
+
