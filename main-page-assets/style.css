@@ -27,7 +27,7 @@ header {
 
 .box { 
     display: block;
-    background-image: url(/main-page-assets/regular_500x200_op-Ten-Front-End-Design-Rules-For-Developers_Luke-Newsletter-d3a7d3e7430ee224cab75104f11342a0.png);
+    background-image: url(/Frontend-Mentor-challenges/main-page-assets/regular_500x200_op-Ten-Front-End-Design-Rules-For-Developers_Luke-Newsletter-d3a7d3e7430ee224cab75104f11342a0.png);
     background-repeat: no-repeat;
     background-size: cover;
     aspect-ratio: 2;
@@ -41,7 +41,7 @@ header {
         to bottom,
         rgba(255, 255, 255, 0.3),
         rgba(255, 255, 255, 0.3)
-      ), url(/main-page-assets/regular_500x200_op-Ten-Front-End-Design-Rules-For-Developers_Luke-Newsletter-d3a7d3e7430ee224cab75104f11342a0.png);
+      ), url(/Frontend-Mentor-challenges/main-page-assets/regular_500x200_op-Ten-Front-End-Design-Rules-For-Developers_Luke-Newsletter-d3a7d3e7430ee224cab75104f11342a0.png);
 }
 
 
