@@ -1,59 +1,87 @@
-body { 
+body {
     margin: 0;
     padding: 0;
-    background: hsl(217, 54%, 11%);
+    background: whitesmoke;
 }
 
-a { 
+a {
+    color: white;
     text-decoration: none;
-    color: hsl(0, 0%, 100%);
+    color: black(0, 0%, 100%);
 }
 
-header { 
+.main-heading {
     text-align: center;
 }
 
-.more-info { 
-    color: hsl(0, 0%, 100%);
-    font-size: 2rem;
+.more-info {
+    font-size: 1rem;
     font-weight: bold;
+    animation: popUp 700ms ease-in-out forwards;
 }
 
-.container { 
+.container {
     width: 90%;
     margin: 50px auto 0 auto;
 }
 
 
-.box { 
+.box {
     display: block;
-    background-image: url(/Frontend-Mentor-challenges/main-page-assets/regular_500x200_op-Ten-Front-End-Design-Rules-For-Developers_Luke-Newsletter-d3a7d3e7430ee224cab75104f11342a0.png);
+    background-image: url(/main-page-assets/card-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     aspect-ratio: 2;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
+    animation: popUp 700ms ease-in-out forwards;
 }
 
 .box:hover,
-.box:focus{ 
-    background-image: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0.3),
-        rgba(255, 255, 255, 0.3)
-      ), url(/Frontend-Mentor-challenges/main-page-assets/regular_500x200_op-Ten-Front-End-Design-Rules-For-Developers_Luke-Newsletter-d3a7d3e7430ee224cab75104f11342a0.png);
+.box:focus {
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.3),
+            rgba(255, 255, 255, 0.3)), url(/main-page-assets/card-background.png);
 }
 
 
-.grid { 
+.grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 50px;
 }
 
-@media (max-width: 45em) { 
-    .box { 
-        font-size: 1rem;
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .more-info,
+    .box {
+        font-size: 1.5rem;
     }
 }
 
+@media (min-width: 1224px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .more-info,
+    .box {
+        font-size: 2rem;
+    }
+
+}
+
+@keyframes popUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
