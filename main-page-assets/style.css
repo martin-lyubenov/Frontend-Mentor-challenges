@@ -28,7 +28,7 @@ a {
 
 .box {
     display: block;
-    background-image: url(/main-page-assets/card-background.png);
+    background-image: url(/Frontend-Mentor-challenges/main-page-assets/card-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     aspect-ratio: 2;
@@ -41,7 +41,7 @@ a {
 .box:focus {
     background-image: linear-gradient(to bottom,
             rgba(255, 255, 255, 0.3),
-            rgba(255, 255, 255, 0.3)), url(/main-page-assets/card-background.png);
+            rgba(255, 255, 255, 0.3)), url(/Frontend-Mentor-challenges/main-page-assets/card-background.png);
 }
 
 
